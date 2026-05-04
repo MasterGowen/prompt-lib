@@ -1,0 +1,17 @@
+# Roo Code Configuration
+
+# Игнорируем служебные файлы и результаты сборки
+generated_context.md
+*.tmp
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Не индексировать старые эксперименты, если они не активны
+# experiments/archive/*
+
+# Логи и временные файлы
+logs/
+*.log
